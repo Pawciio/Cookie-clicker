@@ -21,7 +21,7 @@ makers = function(){
         let farm = {
             price: 1100,
             vol: 0,
-            pps,
+            pps: 0,
         };
 
         let bakery = {
