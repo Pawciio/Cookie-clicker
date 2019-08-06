@@ -1,0 +1,24 @@
+.cookie{
+    display: flex;
+    justify-content: center;
+}
+
+.container-items .items{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.container-items .items button{
+    
+}
+
+.section-together{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.popup{
+    display: none;
+}

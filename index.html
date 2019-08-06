@@ -5,80 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
     <!-- First section - big cookie -->
 
-    <div>
-        <img src="" alt="">
+    <div class="cookie">
+        <img src="Assets/cookie.png" alt="">
     </div>
 
 
     <!-- Second section - left interface -->
-    
-<div>
 
-    <div>
-        <!-- COURSOR -->
-        <div>
-            <img src="" alt="">
-            <div class="popup">
+    <div class="section-together">
 
+        <div class="container-items">
+            <!-- COURSOR -->
+            <div class="items">
+                <img src="Assets/cursor.png" alt="">
+                <div class="popup">
+                    <p>Autoclick once every <span>10</span> seconds</p>
+                    <p>You have <span class="amountOfMakers cursor-vol">0</span> cursor(s)</p>
+                </div>
+                <p><span></span>15</p>
+                <button>COURSOR</button>
             </div>
-            <p><span></span></p>
-            <button></button>
+
+            <!-- GRANDMA -->
+            <div class="items">
+                <img src="Assets/grandma.png" alt="">
+                <div class="popup">
+                    <p>Each grandma produces <span>1</span> cookies per second</p>
+                    <p>You have <span class="amountOfMakers grandma-vol">0</span> grandma(s)</p>
+                    <p>Your grandma(s) produce <span class="pps grandma-pps">0</span> per second</p>
+                </div>
+                <p><span></span>100</p>
+                <button>GRANDMA</button>
+            </div>
+
+            <!-- FARM -->
+            <div class="items">
+                <img src="Assets/farm.png" alt="">
+                <div class="popup">
+                    <p>Each farm produces <span>8</span> cookies per second</p>
+                    <p>You have <span class="amountOfMakers farm-vol">0</span> farm(s)</p>
+                    <p>Your farm(s) produce <span class="pps farm-pps">0</span> per second</p>
+                </div>
+                <p><span></span>1.1k</p>
+                <button>FARM</button>
+            </div>
+
+            <!-- BAKERY -->
+            <div class="items">
+                <img src="Assets/bakery.png" alt="">
+                <div class="popup">
+                    <p>Each bakery produces <span>47</span> cookies per second</p>
+                    <p>You have <span class="amountOfMakers bakery-vol">0</span> bakery(ies)</p>
+                    <p>Your bakery(ies) produce <span class="pps bakery-pps">0</span> per second</p>
+                </div>
+                <p><span></span>12k</p>
+                <button>BAKERY</button>
+            </div>
+
+            <!-- MINE -->
+            <div class="items">
+                <img src="Assets/mine.png" alt="">
+                <div class="popup">
+                    <p>Each mine produces <span>260</span> cookies per second</p>
+                    <p>You have <span class="amountOfMakers mine-vol">0</span> mine(s)</p>
+                    <p>Yours mine(s) produce <span class="pps mine-pps">0</span> per second</p>
+                </div>
+                <p><span></span>130k</p>
+                <button>MINE</button>
+            </div>
         </div>
 
-        <!-- GRANDMA -->
+        <!-- Section third - right score -->
         <div>
-            <img src="" alt="">
-            <div class="popup">
-
-            </div>
-            <p><span></span></p>
-            <button></button>
-        </div>
-
-        <!-- FARM -->
-        <div>
-            <img src="" alt="">
-            <div class="popup">
-
-            </div>
-            <p><span></span></p>
-            <button></button>
-        </div>
-
-        <!-- BAKERY -->
-        <div>
-            <img src="" alt="">
-            <div class="popup">
-
-            </div>
-            <p><span></span></p>
-            <button></button>
-        </div>
-
-        <!-- MINE -->
-        <div>
-            <img src="" alt="">
-            <div class="popup">
-
-            </div>
-            <p><span></span></p>
-            <button></button>
+            <h2>SCORE</h2>
+            <p>You have <span class="amount">0</span> cookies</p>
+            <p>&</p>
+            <p>Produce <span class="productivity">0</span> cookies per second</p>
         </div>
     </div>
-
-    <!-- Section third - right score -->
-    <div>
-        <h2>SCORE</h2>
-        <p>You have <span class="amount">0</span> cookies</p>
-        <p>&</p>
-        <p>Produce <span class="productivity">0</span> cookies per second</p>
-    </div>
-</div>
 
     <script src="JavaScript/javascript.js"></script>
 </body>
