@@ -1,5 +1,6 @@
 body{
-    background-image: url(../Assets/Cookie-background.png)
+    width: 1500px;
+    margin: auto;
 }
 .cookie-div{
     padding: 10px;
