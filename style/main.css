@@ -1,28 +1,63 @@
-.cookie{
+body{
+    background-image: url(../Assets/Cookie-background.png)
+}
+.cookie-div{
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
-
+.click-cookie{
+    opacity: 1;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+}
+.click-cookie:hover{
+    opacity: 7;
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+.container-items .items img{
+    width: 60px;
+    height: 65px;
+}
 .container-items .items{
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
-
-.container-items .items button{
-    
+.cost{
+    text-align: center;
+    width: 100px;
 }
-
+.container-items .items button{
+    width: 200px;
+}
+.items button {
+    background-color: rgb(189, 91, 22);
+    color: #CCC;
+}
+.items button:hover{
+    opacity: 0.9;
+}
 .section-together{
     display: flex;
     justify-content: space-between;
     margin: 20px 30px;
 }
-
 .popup{
     display: none;
+    position: absolute;
+    font-size: 12px;
+    margin-left: 75px;
+    padding: 10px;
+    background-color: #CCC;
+    border-radius: 5px;
+    border: 1px solid;   
 }
-
 .score{
     text-align: center;
 }
