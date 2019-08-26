@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 430px){
+    .container-items .items button{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 370px){
+    .container-items .items button{
+        width: 100px;
+    }
+}
